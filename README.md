@@ -1,4 +1,4 @@
-# `pdksh-perf` - loops performance in `oksh`, `mksh`
+# `pdksh-perf` - printf performance in `oksh`, `mksh`, `posh`
 
 Some performance differences in `pdksh`-derived shells.
 
@@ -21,7 +21,7 @@ Summary
 
 Things slow down by a factor of 3X, but with a more [detailed table], execution gets down to **[110X times slower]**.
 
-These benchmarks can be reproduced in `oksh 7.3` and `mksh 59c`. Originally, both come from `pksh.`
+These benchmarks can be reproduced in `oksh 7.3`, `mksh 59c` and `posh 0.14.1`. First two come originally from `pdksh`.
 
 [`hyperfine`]: https://github.com/sharkdp/hyperfine/tree/master
 [detailed table]: https://github.com/Neved4/color.sh/blob/main/src/color.sh
